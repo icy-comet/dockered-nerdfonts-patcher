@@ -21,8 +21,6 @@ RUN apk update && apk upgrade && \
 
 ENV PYTHONIOENCODING=utf-8
 
-VOLUME /in /out
-
 WORKDIR /patcher
 
 ADD https://github.com/ryanoasis/nerd-fonts/releases/download/2.2.0-RC/FontPatcher.zip fp.zip
