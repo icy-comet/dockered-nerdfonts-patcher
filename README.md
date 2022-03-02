@@ -12,6 +12,7 @@
 A small and simple *unofficial* Docker image to make NerdPatching fonts easy.
 
 ### Why not use the official image?
+
 The current release of the official image (as of 2022-03-01) is broken for me.
 - I couldn't get it working properly.
 - The image isn't updated very frequently.
@@ -22,6 +23,8 @@ So instead, I created a custom image that *works* and does exactly what I want, 
 Always open to PRs, Issues and suggestions :)
 
 ## Usage
+
+[Docker Hub link](https://hub.docker.com/r/icycomet/nerdfonts-patcher)
 
 Run the container with no arguments. It will display the help message and exit.
 
@@ -61,4 +64,5 @@ docker stop -t 1 font-patcher
 - If you see no output on passing the arguments, please recheck the arguments passed.
 
 ## Credits
+
 - [Nerd Fonts](https://nerdfonts.com)
