@@ -17,7 +17,7 @@ RUN apk update && apk upgrade && \
     apk add fontforge && \
     apk add unzip && \
     apk add py3-pip && \
-    pip install configparser
+    pip install --break-system-packages configparser
 
 ENV PYTHONIOENCODING=utf-8
 
