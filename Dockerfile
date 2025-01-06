@@ -23,7 +23,7 @@ ENV PYTHONIOENCODING=utf-8
 
 WORKDIR /patcher
 
-ADD https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/FontPatcher.zip fp.zip
+ADD https://github.com/ryanoasis/nerd-fonts/releases/download/v3.3.0/FontPatcher.zip fp.zip
 
 RUN unzip fp.zip && rm fp.zip && sed -i "s/python/python3/" ./font-patcher
 
